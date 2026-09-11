@@ -15,6 +15,10 @@ Custom Work Unit 1 coverage, as bounded by the User's assignment:
 
 No novelty claim is permitted from this work unit. The full proposition-level search record is maintained in the Notion Prior-Art Search Record database.
 
+## SCUTER lineage status
+
+Agent A performed the initial proposition-specific literature exploration and candidate discovery recorded below. This is useful scientific framing, but under SCUTER `PRIOR-ART-LINEAGE` item 7, a participant does not establish lineage for a statement that participant introduced. Accordingly, Agent A's searches do **not** independently satisfy the lineage requirement for Agent A-introduced propositions. Agent B must independently perform or establish the required lineage search/review before release. Every candidate reference also remains Provisional until the required second-participant bibliographic/claim check and User disposition are recorded.
+
 ## Search resources and strategy
 
 Resources searched included PLOS ONE, PubMed, Zenodo, the official `allisonhorst/palmerpenguins` repository and package website, direct DOI resolution for the upstream Environmental Data Initiative records, Cornell INFO 2950 teaching materials, and general scholarly web search. Search terms included the Gorman et al. paper title; the package DOI; each upstream EDI DOI/hash; combinations of `Palmer Penguins`, `flipper length`, `body mass`, `species`, and `regression`; and terms linking penguin flipper length to structural size and body mass to body condition.
@@ -23,7 +27,7 @@ Resources searched included PLOS ONE, PubMed, Zenodo, the official `allisonhorst
 
 The public simplified `penguins` dataset is distributed by the `palmerpenguins` package. Official package documentation attributes the measurements to Palmer Station Antarctica LTER and Kristen Gorman and identifies three species-specific Environmental Data Initiative datasets from 2007-2009. The associated primary paper is Gorman, Williams, and Fraser (2014).
 
-The project input is not a floating package download. It is `inst/extdata/penguins.csv` pinned to upstream commit `8957207b78d6ccd1b4654a9dd9c9041b657478ab`. The committed project copy has Git blob SHA `25b46d384bf81f8399188500ea54917bb49d8890`, identical to the upstream blob.
+The project input is not a floating package download. It is `inst/extdata/penguins.csv` pinned to upstream commit `8957207b78d6ccd1b4654a9dd9c9041b657478ab`. The committed project copy has Git blob SHA `25b46d384bf81f8399188500ea54917bb49d8890`, identical to the upstream blob. The commit-pinned raw GitHub URL directly serves this CSV file; a browser displays the CSV text rather than an HTML data page.
 
 ### Upstream source records
 
@@ -39,13 +43,13 @@ Direct DOI resolution for these three EDI records returned HTTP 403 in Agent A's
 
 Gorman KB, Williams TD, Fraser WR. *Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis).* PLOS ONE 9(3):e90081. DOI `10.1371/journal.pone.0090081`.
 
-Agent A verified the publisher record. Adults were sampled at study nests at the one-egg stage. Right flipper length was measured with a ruler and body mass with Pesola spring scales. The paper documents interspecific differences in morphometric/sexual-size patterns and explicitly cautions that body mass is plastic across the annual cycle. These are established prior findings. They do not establish the pooled or species-adjusted flipper-length/body-mass relationship in the exact project analysis.
+Agent A checked the publisher record. Adults were sampled at study nests at the one-egg stage. Right flipper length was measured with a ruler and body mass with Pesola spring scales. The paper documents interspecific differences in morphometric/sexual-size patterns and explicitly cautions that body mass is plastic across the annual cycle. These are provisional prior findings for project framing until the required second-participant check and User disposition are complete. They do not establish the pooled or species-adjusted flipper-length/body-mass relationship in the exact project analysis.
 
 ### Viblanc et al. 2012
 
 Viblanc VA et al. *Body girth as an alternative to body mass for establishing condition indexes in field studies: a validation in the king penguin.* Physiological and Biochemical Zoology 85(5):533-542. DOI `10.1086/667540`; PMID `22902382`.
 
-Agent A verified the PubMed record and abstract. The study supports a distinction between structural-size information from measures including flipper/bill length and the use of body mass in body-condition/energetic-state analyses. It is used here only to constrain interpretation, not to assume the direction or strength of the Palmer Penguins association.
+Agent A checked the PubMed record and abstract. The study supports provisional framing that structural-size information can be carried by measurements including flipper/bill length while body mass is used in body-condition/energetic-state analyses. It is used here only to constrain interpretation, not to assume the direction or strength of the Palmer Penguins association.
 
 ## Exact-question prior art
 
@@ -55,4 +59,4 @@ Disposition: the project will not claim novelty for pairing these variables, plo
 
 ## Provisional reference status
 
-Under SCUTER, every proposed reference remains Provisional until independent bibliographic/claim correspondence review and User disposition. The Notion Citation Ledger records this status. Gorman 2014, Viblanc 2012, and the Zenodo package record received Agent A identity/claim checks. The three EDI dataset records still require direct or independent authoritative-record verification.
+Under SCUTER, every proposed reference remains Provisional until independent bibliographic/claim correspondence review and User disposition. The Notion Citation Ledger records this status. Gorman 2014, Viblanc 2012, and the Zenodo package record received Agent A identity/claim checks. The three EDI dataset records still require direct or independent authoritative-record verification. None of these references is yet accepted for manuscript use.
